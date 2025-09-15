@@ -14,8 +14,7 @@ Besides, you need to install the followings:
 
 ### Testing
 If you only want to test without preprocessing and training:
-1. Download the RQ test dataset from  
-   [https://zenodo.org/records/17119870](https://zenodo.org/records/17119870).
+1. Download the RQ test dataset from [https://zenodo.org/records/17119870](https://zenodo.org/records/17119870).
 
 2. Then move the files into the `dataset` directory:
 ```
@@ -32,7 +31,8 @@ python eval.py
 
 
 ### Dataset Preprocessing
-You can download the binary datasets (ollvm.tar.xz and tigress.tar.xz) from [https://zenodo.org/records/17119870](https://zenodo.org/records/17119870) and use them to perform the preprocessing steps for training and testing.
+You can download the binary datasets (ollvm.tar.xz and tigress.tar.xz) from 
+[https://zenodo.org/records/17119870](https://zenodo.org/records/17119870) and use them to perform the preprocessing steps for training and testing.
 
 #### Step 1 — Generate initial dataset
 ```
