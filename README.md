@@ -33,6 +33,7 @@ python eval.py
 ### Dataset Preprocessing
 You can download the binary datasets (ollvm.tar.xz and tigress.tar.xz) from 
 [https://zenodo.org/records/17119870](https://zenodo.org/records/17119870) and use them to perform the preprocessing steps for training and testing.
+By default, put `ollvm` and `tigress` under the `/data` directory.
 
 #### Step 1 — Generate initial dataset
 ```
