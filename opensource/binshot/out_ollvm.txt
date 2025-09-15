@@ -1,0 +1,12 @@
+Generated: corpus/ollvm/OLLVM_all_none_clang.txt
+Generated: corpus/ollvm/OLLVM_benign_benign_clang.txt
+Generated: corpus/ollvm/OLLVM_sub_none_clang.txt
+Generated: corpus/ollvm/OLLVM_bcf_none_clang.txt
+Generated: corpus/ollvm/OLLVM_fla_none_clang.txt
+
+=== Summary ===
+OLLVM_all_none_clang.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+OLLVM_benign_benign_clang.json: total pairs (json) = 5000, missing pairs = 0 (pos=0, neg=0), final pairs = 5000 (pos=2500, neg=2500)
+OLLVM_sub_none_clang.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+OLLVM_bcf_none_clang.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+OLLVM_fla_none_clang.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)

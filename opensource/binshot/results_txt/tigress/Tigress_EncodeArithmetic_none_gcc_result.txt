@@ -1,0 +1,8 @@
+[+] Loaded 17992 vocas from corpus/pretrain.all.corpus.voca
+[+] Loading a Pre-traind model
+[+] Creating Dataloaders
+[+] Creating a Similarity Trainer
+Trainable total Parameters: 6698370
+Trainable requires_grad Parameters: 6665602
+[+] Start testing...
+	Acc: 0.890, Precision: 0.994, Recall: 0.795, F1: 0.883, AUC: 0.895

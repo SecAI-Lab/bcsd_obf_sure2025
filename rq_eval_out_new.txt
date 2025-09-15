@@ -1,0 +1,57 @@
+[INFO] Using device: cuda:0
+================================================================================
+Processing: Dataset [ollvm_benign_clang] with Model [BinShot_OLLVM]
+[+] Loading model from ./sure2025_ver2/output/ollvm/finetuned
+[OLLVM_sub_none_clang.json] --> Acc: 0.9600, Prec: 0.9978, Recall: 0.9220,  F1: 0.9584, AUC: 0.9600
+[OLLVM_fla_none_clang.json] --> Acc: 0.9325, Prec: 0.9988, Recall: 0.8660,  F1: 0.9277, AUC: 0.9325
+[OLLVM_bcf_none_clang.json] --> Acc: 0.9485, Prec: 0.9978, Recall: 0.8990,  F1: 0.9458, AUC: 0.9485
+[OLLVM_all_none_clang.json] --> Acc: 0.9205, Prec: 0.9953, Recall: 0.8450,  F1: 0.9140, AUC: 0.9205
+[Total] --> Acc: 0.9404, Prec: 0.9975, Recall: 0.8830, F1: 0.9367, AUC: 0.9404
+[INFO] Saving result to: ./sure2025_ver2/test_results/ollvm_benign_clang_BinShot_OLLVM_results.json
+================================================================================
+================================================================================
+Processing: Dataset [tigress_benign_gcc] with Model [BinShot_Tigress]
+[+] Loading model from ./sure2025_ver2/output/tigress/finetuned
+[Tigress_EncodeArithmetic_none_gcc.json] --> Acc: 0.8715, Prec: 0.9882, Recall: 0.7520,  F1: 0.8541, AUC: 0.8715
+[Tigress_AddOpaque_none_gcc.json] --> Acc: 0.8785, Prec: 0.9909, Recall: 0.7640,  F1: 0.8628, AUC: 0.8785
+[Tigress_EncodeBranches_none_gcc.json] --> Acc: 0.8805, Prec: 0.9872, Recall: 0.7710,  F1: 0.8658, AUC: 0.8805
+[Tigress_Flatten_none_gcc.json] --> Acc: 0.8845, Prec: 0.9861, Recall: 0.7800,  F1: 0.8710, AUC: 0.8845
+[Tigress_Virtualize_none_gcc.json] --> Acc: 0.8760, Prec: 0.9896, Recall: 0.7600,  F1: 0.8597, AUC: 0.8760
+[Total] --> Acc: 0.8782, Prec: 0.9884, Recall: 0.7654, F1: 0.8627, AUC: 0.8782
+[INFO] Saving result to: ./sure2025_ver2/test_results/tigress_benign_gcc_BinShot_Tigress_results.json
+================================================================================
+================================================================================
+Processing: Dataset [benign_benign_clang] with Model [BinShot_OLLVM]
+[+] Loading model from ./sure2025_ver2/output/ollvm/finetuned
+[OLLVM_benign_benign_clang.json] --> Acc: 0.9334, Prec: 0.9977, Recall: 0.8688,  F1: 0.9288, AUC: 0.9334
+[Total] --> Acc: 0.9334, Prec: 0.9977, Recall: 0.8688, F1: 0.9288, AUC: 0.9334
+[INFO] Saving result to: ./sure2025_ver2/test_results/benign_benign_clang_BinShot_OLLVM_results.json
+================================================================================
+================================================================================
+Processing: Dataset [benign_benign_gcc] with Model [BinShot_Tigress]
+[+] Loading model from ./sure2025_ver2/output/tigress/finetuned
+[Tigress_benign_benign_gcc.json] --> Acc: 0.9957, Prec: 0.9914, Recall: 1.0000,  F1: 0.9957, AUC: 0.9957
+[Total] --> Acc: 0.9957, Prec: 0.9914, Recall: 1.0000, F1: 0.9957, AUC: 0.9957
+[INFO] Saving result to: ./sure2025_ver2/test_results/benign_benign_gcc_BinShot_Tigress_results.json
+================================================================================
+================================================================================
+Processing: Dataset [tigress_benign_gcc] with Model [BinShot_OLLVM]
+[+] Loading model from ./sure2025_ver2/output/ollvm/finetuned
+[Tigress_EncodeArithmetic_none_gcc.json] --> Acc: 0.5895, Prec: 0.9945, Recall: 0.1800,  F1: 0.3048, AUC: 0.5895
+[Tigress_AddOpaque_none_gcc.json] --> Acc: 0.6045, Prec: 0.9953, Recall: 0.2100,  F1: 0.3468, AUC: 0.6045
+[Tigress_EncodeBranches_none_gcc.json] --> Acc: 0.5950, Prec: 1.0000, Recall: 0.1900,  F1: 0.3193, AUC: 0.5950
+[Tigress_Flatten_none_gcc.json] --> Acc: 0.6060, Prec: 1.0000, Recall: 0.2120,  F1: 0.3498, AUC: 0.6060
+[Tigress_Virtualize_none_gcc.json] --> Acc: 0.5995, Prec: 0.9807, Recall: 0.2030,  F1: 0.3364, AUC: 0.5995
+[Total] --> Acc: 0.5989, Prec: 0.9940, Recall: 0.1990, F1: 0.3316, AUC: 0.5989
+[INFO] Saving result to: ./sure2025_ver2/test_results/tigress_benign_gcc_BinShot_OLLVM_results.json
+================================================================================
+================================================================================
+Processing: Dataset [ollvm_benign_clang] with Model [BinShot_Tigress]
+[+] Loading model from ./sure2025_ver2/output/tigress/finetuned
+[OLLVM_sub_none_clang.json] --> Acc: 0.6955, Prec: 0.8918, Recall: 0.4450,  F1: 0.5937, AUC: 0.6955
+[OLLVM_fla_none_clang.json] --> Acc: 0.6365, Prec: 0.8167, Recall: 0.3520,  F1: 0.4920, AUC: 0.6365
+[OLLVM_bcf_none_clang.json] --> Acc: 0.5950, Prec: 0.7879, Recall: 0.2600,  F1: 0.3910, AUC: 0.5950
+[OLLVM_all_none_clang.json] --> Acc: 0.5820, Prec: 0.7470, Recall: 0.2480,  F1: 0.3724, AUC: 0.5820
+[Total] --> Acc: 0.6272, Prec: 0.8197, Recall: 0.3262, F1: 0.4667, AUC: 0.6273
+[INFO] Saving result to: ./sure2025_ver2/test_results/ollvm_benign_clang_BinShot_Tigress_results.json
+================================================================================

@@ -1,0 +1,15 @@
+Warning: invalid line format -> 'coreutils-8.2__sort__O2__AddOpaque	sub_406665'
+Generated: corpus/tigress/Tigress_benign_benign_gcc.txt
+Generated: corpus/tigress/Tigress_EncodeBranches_none_gcc.txt
+Generated: corpus/tigress/Tigress_Virtualize_none_gcc.txt
+Generated: corpus/tigress/Tigress_AddOpaque_none_gcc.txt
+Generated: corpus/tigress/Tigress_EncodeArithmetic_none_gcc.txt
+Generated: corpus/tigress/Tigress_Flatten_none_gcc.txt
+
+=== Summary ===
+Tigress_benign_benign_gcc.json: total pairs (json) = 4582, missing pairs = 0 (pos=0, neg=0), final pairs = 4582 (pos=2291, neg=2291)
+Tigress_EncodeBranches_none_gcc.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+Tigress_Virtualize_none_gcc.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+Tigress_AddOpaque_none_gcc.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+Tigress_EncodeArithmetic_none_gcc.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
+Tigress_Flatten_none_gcc.json: total pairs (json) = 2000, missing pairs = 0 (pos=0, neg=0), final pairs = 2000 (pos=1000, neg=1000)
